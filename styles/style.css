@@ -214,10 +214,11 @@
 }
 
 .kaufman {
-  background-color: #1F1F1F;
   position: relative;
   padding: 90px 0;
   z-index: -2;
+  background-color: #1F1F1F;
+  overflow: hidden;
 }
 
 .kaufman__title_theme_dark {
@@ -238,6 +239,15 @@
   font-size: 24px;
   font-weight: normal;
   color: #fff;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  right: -124px;
+  top: 0;
+  z-index: -1;
 }
 
 .table_theme_dark {
@@ -269,14 +279,4 @@
   font-size: 18px;
   font-weight: normal;
   color: #fff;
-}
-
-.triangle {
-  width: 660px;
-  height: 636px;
-  position: absolute;
-  right: -124px;
-  top: 0;
-  z-index: -1;
-  overflow: hidden;
 }
