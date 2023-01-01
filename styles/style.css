@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  background-color: #F2F2F2;
 }
 
 .logo {
@@ -110,7 +111,7 @@
 }
 
 .digits {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .digits__title {
@@ -125,7 +126,7 @@
 .digits__subtitle {
   width: 60%;
   text-align: center;
-  margin: 0 auto 60px;
+  margin: 0 auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -142,7 +143,7 @@
 
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -166,18 +167,14 @@
   margin-top: 20px;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .feynman {
   display: flex;
   flex-direction: column;
   position: relative;
   height: 790px;
+  background-color:  #F2F2F2;
+  z-index: -2;
+  padding-top: 100px  ;
 }
 
 .feynman__title {
@@ -201,7 +198,7 @@
 .feynman__link {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -214,4 +211,72 @@
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+.kaufman {
+  background-color: #1F1F1F;
+  position: relative;
+  padding: 90px 0;
+  z-index: -2;
+}
+
+.kaufman__title_theme_dark {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.kaufman__subtitle_theme_dark {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.table_theme_dark {
+  width: 1100px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: #fff;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  right: -124px;
+  top: 0;
+  z-index: -1;
+  overflow: hidden;
 }
