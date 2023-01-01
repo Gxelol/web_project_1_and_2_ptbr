@@ -113,7 +113,7 @@
   margin-bottom: 40px;
 }
 
-.digits-title {
+.digits__title {
   width: 60%;
   text-align: center;
   margin: 0 auto 20px;
@@ -122,7 +122,7 @@
   font-weight: bold;
 }
 
-.digits-subtitle {
+.digits__subtitle {
   width: 60%;
   text-align: center;
   margin: 0 auto 60px;
@@ -171,4 +171,47 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 790px;
+}
+
+.feynman__title {
+  width: 775px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
