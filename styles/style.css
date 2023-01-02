@@ -178,7 +178,7 @@
   height: 790px;
   background-color:  #F2F2F2;
   z-index: 0;
-  padding-top: 100px  ;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -326,6 +326,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .footer__list {
@@ -337,10 +338,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #ffffff;
-}
-
-.footer__column-heading {
   color: #ffffff;
 }
 
