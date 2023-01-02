@@ -51,6 +51,10 @@
   left: 64px;
 }
 
+.header__link {
+  color: #2F80ED;
+}
+
 .header__main-illustration {
   width: 756px;
   height: 608px;
@@ -173,7 +177,7 @@
   position: relative;
   height: 790px;
   background-color:  #F2F2F2;
-  z-index: -2;
+  z-index: 0;
   padding-top: 100px  ;
 }
 
@@ -202,6 +206,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2F80ED;
 }
 
 .feynman__image {
@@ -216,7 +221,7 @@
 .kaufman {
   position: relative;
   padding: 90px 0;
-  z-index: -2;
+  z-index: 0;
   background-color: #1F1F1F;
   overflow: hidden;
 }
@@ -321,6 +326,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.footer__list {
+  list-style: none;
 }
 
 .footer__column-link {
