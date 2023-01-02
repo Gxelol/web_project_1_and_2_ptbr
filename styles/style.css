@@ -26,7 +26,7 @@
   height: 31px;
 }
 
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -41,18 +41,25 @@
   margin-left: 64px;
 }
 
-.header__subtitle {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  width: 388px;
+.subtitle_place_header {
   position: absolute;
   bottom: 30px;
   left: 64px;
 }
 
+.header__subtitle {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+}
+
 .header__link {
   color: #2F80ED;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -207,6 +214,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2F80ED;
+  text-decoration: none;
 }
 
 .feynman__image {
@@ -339,6 +347,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__social-icons {
