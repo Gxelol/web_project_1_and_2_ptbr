@@ -1,4 +1,4 @@
-# PROJECT 2
+# PROJECT 1
 ------------
 
 The project is a pure **HTML and CSS** landing page. It is a project from Practicum bootcamp for learning.
